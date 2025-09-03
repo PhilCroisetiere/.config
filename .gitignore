@@ -1,0 +1,14 @@
+*
+!nvim/
+!/nvim/**
+!kitty/
+!/kitty/**
+!hypr/
+!/hypr/**
+!waybar/
+!/waybar/**
+!.git*
+!/yazi/
+!/yazi/**
+!/rofi/
+!/rofi/**
