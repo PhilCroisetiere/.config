@@ -1,0 +1,10 @@
+
+[opener]
+image = [
+  { run = 'kitty --hold --title "Yazi Image" kitty +kitten icat "$@"', desc = "Open image in new kitty (icat)", orphan = true, for = "unix" },
+]
+
+[open]
+rules = [
+  { mime = "image/*", use = "image" },
+]
